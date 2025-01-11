@@ -96,4 +96,11 @@ variable "azurerm_public_ip" {
   default     = "myPublicIP"  
 }
 
+variable "project" {
+  type        = string
+  description = "Project name or identifier."
+  default     = "default_project"
+}
+
+
 
